@@ -13,15 +13,18 @@ function start() {
 function restartPage() {
     if (page === 1) {
         page++;
+        console.log(1);
         updatePage();
     } else {
         page = 0;
+        console.log(1);
         updatePage();
     };
 };
 
 function nextPage() {
     page++;
+    console.log(1);
     updatePage();
 };
 

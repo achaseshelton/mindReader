@@ -23,7 +23,6 @@ Headers, button1, button2, and helper text change based on the current page.
 - nextPage function: increases the value of page by 1 and then uses the updatePage function.
 - restartPage function: if the value of page is equal to 0, then increases the value of page by 1 and updates the page, else sets the value of page to 0 and then uses the updatePage function.
 - randomizeSymbol function: randomizes the array of symbols, using a for loop assigns a radom symbol to each number from 1-99, all numbers divisible by 9 get the same symbol.
-- hideButton1 function: a function to hide button 1 if the page value is 0 or 5??? how do i implement this?
 - start function: updatePage on start
 
 ### **Program**
@@ -42,9 +41,9 @@ updatePage
 
 if page is equal to 0 populate the page with the current values
 header: "I can read your mind"
-button1: hideButton! function
+button1: style.display = "none
 helperText: ""
-button2: Go, go function?
+button2: Go,
 
 nextPage
 
@@ -82,6 +81,6 @@ nextPage
 
 if page is equal 5 to  populate the page with the current values
 header: "yourSymbol"
-button1: hideButton1
+button1: style.display = "none"
 helperText: "your symbol is: yourSymbol"
 button2: @
