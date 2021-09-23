@@ -5,19 +5,18 @@ var symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "~", "+"];
 var yourSymbol = null;
 
 function start() {
-    page = 1
     updatePage()
-    console.log(1)
+    console.log(page)
 };
 
 function restartPage() {
     if (page = 1) {
         page++;
-        console.log(1);
+        console.log(page);
         updatePage();
     } else {
         page = 0;
-        console.log(1);
+        console.log(page);
         updatePage();
     };
 };
