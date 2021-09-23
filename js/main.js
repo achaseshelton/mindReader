@@ -29,7 +29,7 @@ function nextPage() {
 function randomizeSymbol() {
     var icon = symbols[Math.floor(Math.random()*symbols.length)];
     var string = "";
-    for(var i = 1; i <= 99; i++) {
+    for(var i = 0; i <= 99; i++) {
         if (i % 9 === 0) {
             string = string + i + "-" + icon + "\n";
         }
