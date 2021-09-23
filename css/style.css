@@ -1,0 +1,29 @@
+#header {
+    max-height: 400px !important;
+    padding-bottom: 20rem !important;
+    font-weight: bold;
+}
+
+.fixed-bottom {
+    left: 265px;
+}
+
+#coulmn2 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#button1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    padding-right: 6rem;
+    padding-left: 6rem;
+    font-weight: bold;
+}
+
+#helperText {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

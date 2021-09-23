@@ -11,29 +11,28 @@
     <link href="./css/style.css" rel="stylesheet">
     <title>Mind Reader Game</title>
   </head>
-  <body>
+  <body onload="start()">
     <div class="container text-center">
       <div class="row">    
-        <div class="col"></div>
-          <div class="text-dark display-2 min-vh-50" id="header"></div>
-      </div>
-      <div class="row">
-        <div class="col d-flex justify-content-center align-items-center">
-          <div class="mh-25">
-            <button type="button" class="btn btn-info text-white btn-outline-dark" onclick="nextPage()" id="button1"></button>
-          </div>  
+        <div class="col">
+            <div class="text-dark display-1 py-5 px-5" id="header"></div>
         </div>
       </div>
       <div class="row">
-        <div class="col"></div>
-          <div class="text-info mh-25" id="helperText"></div>
-      </div>
-      <div class="row mh-25">
-        <div class="col-9"></div>
-        <div class="col-3">
-          <button type="button" class="btn btn-outline-dark text-info mh-25" onclick="restartPage()" id="button2"></button>
+        <div class="col d-flex justify-content-center align-items-center" id="column2">
+          <button type="button" class="btn btn-info text-white btn-outline-dark btn-lg" onclick="nextPage()" id="button1"></button>
         </div>
       </div>
+      <div class="row">
+        <div class="col">
+          <div class="text-info" id="helperText"></div>
+        </div>
+      </div>
+      <!-- <div class="row mh-25"> -->
+        <!-- <div class="col-3 offset-9 float-end"> -->
+          <button type="button" class="btn btn-outline-dark text-info rounded-circle fixed-bottom p-3 m-5" onclick="restartPage()" id="button2"></button>
+        <!-- </div> -->
+      <!-- </div> -->
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="./js/main.js"></script>

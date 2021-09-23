@@ -51,6 +51,7 @@ function updatePage() {
 
     if (page == 1) {
         headerDiv.innerText = "I can read your mind";
+        headerDiv.classList.remove("overflow-auto");
         helperTextDiv.innerText = "";
         button1Div.style.display = "none";
         button2Div.innerText = "Go";
@@ -76,12 +77,14 @@ function updatePage() {
     }
     else if (page == 5) {
         headerDiv.innerText = randomizeSymbol();
+        headerDiv.classList.add("overflow-auto")
         helperTextDiv.innerText = "Find your new number. note the symbol beside the number";
         button1Div.innerText = "REVEAL";
         button2Div.innerText = "@";
     }
     else if (page == 6) {
         headerDiv.innerText = yourSymbol;
+        headerDiv.classList.remove("overflow-auto")
         helperTextDiv.innerText = "your symbol is:" + "\n" + yourSymbol;
         button1Div.style.display = "none";
         button2Div.innerText = "@";
