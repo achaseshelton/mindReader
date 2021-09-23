@@ -1,4 +1,4 @@
-var page = 0;
+var page = 1;
 
 var symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "~", "+"];
 
@@ -9,7 +9,7 @@ function start() {
 };
 
 function restartPage() {
-    if (page = 0) {
+    if (page === 1) {
         page++;
         updatePage();
     } else {
@@ -44,37 +44,37 @@ function updatePage() {
     button1Div = document.getElementById("button1");
     button2Div = document.getElementById("button2");
 
-    if (page = 0) {
+    if (page = 1) {
         headerDiv.innerText = "I can read your mind";
         helperTextDiv.innerText = "";
         button1Div.style.display = "none";
         button2Div.innerText = "Go";
     }
-    else if (page = 1) {
+    else if (page = 2) {
         headerDiv.innerText = "Pick a number from 01-99";
         helperTextDiv.innerText = "when you have your number click next";
         button1Div.innerText = "NEXT";
         button2Div.innerText = "@";
     }
-    else if (page = 2) {
+    else if (page = 3) {
         headerDiv.innerText = "add both digits together to get a new number";
         helperTextDiv.innerText = "Ex: 14 is 1+4=5 click next to proceed";
         button1Div.innerText = "NEXT";
         button2Div.innerText = "@";
     }
-    else if (page = 3) {
+    else if (page = 4) {
         headerDiv.innerText = "subtract your new number from the original number";
         helperTextDiv.innerText = "Ex: 14-5=9 click next to proceed";
         button1Div.innerText = "NEXT";
         button2Div.innerText = "@";
     }
-    else if (page = 4) {
+    else if (page = 5) {
         headerDiv.innerText = string;
         helperTextDiv.innerText = "Find your new number. note the symbol beside the number";
         button1Div.innerText = "REVEAL";
         button2Div.innerText = "@";
     }
-    else if (page = 5) {
+    else if (page = 6) {
         headerDiv.innerText = yourSymbol;
         helperTextDiv.innerText = "your symbol is:" + "<br>" + yourSymbol;
         button1Div.style.display = "none";
