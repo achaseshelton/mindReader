@@ -5,7 +5,9 @@ var symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "~", "+"];
 var yourSymbol = null;
 
 function start() {
+    page = 1
     updatePage()
+    console.log(1)
 };
 
 function restartPage() {
