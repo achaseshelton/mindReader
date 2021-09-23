@@ -1,7 +1,5 @@
 var page = 1;
 
-var reset = <i class="bi bi-arrow-counterclockwise"></i>
-
 var symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "~", "+"];
 
 var yourSymbol = null;
@@ -62,31 +60,31 @@ function updatePage() {
         helperTextDiv.innerText = "when you have your number click next";
         button1Div.style.display = "block";
         button1Div.innerText = "NEXT";
-        button2Div.innerText = reset;
+        button2Div.innerText = "@";
     }
     else if (page == 3) {
         headerDiv.innerText = "add both digits together to get a new number";
         helperTextDiv.innerText = "Ex: 14 is 1+4=5 click next to proceed";
         button1Div.innerText = "NEXT";
-        button2Div.innerText = "<i class='bi bi-arrow-counterclockwise'></i>";
+        button2Div.innerText = "@";
     }
     else if (page == 4) {
         headerDiv.innerText = "subtract your new number from the original number";
         helperTextDiv.innerText = "Ex: 14-5=9 click next to proceed";
         button1Div.innerText = "NEXT";
-        button2Div.innerText = "<i class='bi bi-arrow-counterclockwise'></i>";
+        button2Div.innerText = "@";
     }
     else if (page == 5) {
         headerDiv.innerText = randomizeSymbol();
         helperTextDiv.innerText = "Find your new number. note the symbol beside the number";
         button1Div.innerText = "REVEAL";
-        button2Div.innerText = "<i class='bi bi-arrow-counterclockwise'></i>";
+        button2Div.innerText = "@";
     }
     else if (page == 6) {
         headerDiv.innerText = yourSymbol;
         helperTextDiv.innerText = "your symbol is:" + "\n" + yourSymbol;
         button1Div.style.display = "none";
-        button2Div.innerText = reset;
+        button2Div.innerText = "@";
     }
 }
 
