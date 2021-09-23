@@ -89,3 +89,5 @@ function updatePage() {
         button2Div.innerText = reset;
     }
 }
+
+document.onload = start;
