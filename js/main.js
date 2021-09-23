@@ -1,5 +1,7 @@
 var page = 1;
 
+var reset = <i class="bi bi-arrow-counterclockwise"></i>
+
 var symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "~", "+"];
 
 var yourSymbol = null;
@@ -60,7 +62,7 @@ function updatePage() {
         helperTextDiv.innerText = "when you have your number click next";
         button1Div.style.display = "block";
         button1Div.innerText = "NEXT";
-        button2Div.innerText = "<i class='bi bi-arrow-counterclockwise'></i>";
+        button2Div.innerText = reset;
     }
     else if (page == 3) {
         headerDiv.innerText = "add both digits together to get a new number";
@@ -84,6 +86,6 @@ function updatePage() {
         headerDiv.innerText = yourSymbol;
         helperTextDiv.innerText = "your symbol is:" + "\n" + yourSymbol;
         button1Div.style.display = "none";
-        button2Div.innerText = "<i class='bi bi-arrow-counterclockwise'></i>";
+        button2Div.innerText = reset;
     }
 }
