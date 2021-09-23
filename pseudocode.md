@@ -23,7 +23,7 @@ Headers, button1, button2, and helper text change based on the current page.
 - restartPage function: if the value of page is equal to 0, then increases the value of page by 1 and updates the page, else sets the value of page to 0 and then uses the updatePage function.
 - randomizeSymbol function: randomizes the array of symbols, using a for loop assigns a radom symbol to each number from 1-99, all numbers divisible by 9 get the same symbol.
 - hideButton1 function: a function to hide button 1 if the page value is 0 or 5??? how do i implement this?
-- start function: set the page to 0 and updatePage
+- start function: updatePage on start
 
 ### **Program**
 
@@ -56,7 +56,7 @@ button2: @
 nextPage
 
 if page is equal to 2 populate the page with the current values
-header: "add both digits together to get a new number"
+header: "  "
 button1: "NEXT"
 helperText: "Ex: 14 is 1+4=5 click next to proceed"
 button2: @
@@ -74,7 +74,7 @@ nextPage
 if page is equal to 4 populate the page with the current values
 header: randomizeSymbol function
 button1: "REVEAL"
-helperText: "Find your new number note the symbol next to it.
+helperText: "Find your new number. note the symbol beside the number"
 button2: @
 
 nextPage
