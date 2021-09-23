@@ -10,7 +10,7 @@ function start() {
 };
 
 function restartPage() {
-    if (page = 1) {
+    if (page == 1) {
         page++;
         console.log(page);
     } else {
