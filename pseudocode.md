@@ -6,6 +6,7 @@ Create a page that displays a mind reader game that:
 HTML is a template that contains values for a header, button1, helper text, and a bottom2.
 Headers, button1, button2, and helper text change based on the current page.
 
+
 ### **Data Structures and Functions**
 
 #### **Variables**
@@ -79,7 +80,7 @@ button2: @
 
 nextPage
 
-if page is equal to  populate the page with the current values
+if page is equal 5 to  populate the page with the current values
 header: "yourSymbol"
 button1: hideButton1
 helperText: "your symbol is: yourSymbol"

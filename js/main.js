@@ -47,7 +47,7 @@ function updatePage() {
     if (page = 0) {
         headerDiv.innerText = "I can read your mind";
         helperTextDiv.innerText = "";
-        button1Div.innerText = "";
+        button1Div.style.display = "none";
         button2Div.innerText = "Go";
     }
     else if (page = 1) {
@@ -77,7 +77,7 @@ function updatePage() {
     else if (page = 5) {
         headerDiv.innerText = yourSymbol;
         helperTextDiv.innerText = "your symbol is:" + "<br>" + yourSymbol;
-        button1Div.innerText = "NEXT";
+        button1Div.style.display = "none";
         button2Div.innerText = "@";
     }
 }
