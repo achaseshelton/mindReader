@@ -56,6 +56,7 @@ function updatePage() {
     else if (page == 2) {
         headerDiv.innerText = "Pick a number from 01-99";
         helperTextDiv.innerText = "when you have your number click next";
+        button1Div.style.display = "block";
         button1Div.innerText = "NEXT";
         button2Div.innerText = "@";
     }
