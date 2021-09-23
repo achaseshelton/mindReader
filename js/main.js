@@ -87,5 +87,3 @@ function updatePage() {
         button2Div.innerText = "<i class='bi bi-arrow-counterclockwise'></i>";
     }
 }
-
-document.onload = start;
