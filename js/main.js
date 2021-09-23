@@ -31,12 +31,14 @@ function randomizeSymbol() {
     var string = "";
     for(var i = 1; i <= 99; i++) {
         if (i % 9 === 0) {
-            string = string + i + "-" + icon + "\n"
+            string = string + i + "-" + icon + "\n";
         }
         else {
             var radom = symbols[Math.floor(Math.random()*symbols.length)];
-            string = string + i + "-" + radom + "\n"
+            string = string + i + "-" + radom + "\n";
+            yourSymbol = icon
         };
+        
     };
     return string;
 };
