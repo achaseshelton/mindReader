@@ -84,6 +84,6 @@ function updatePage() {
         headerDiv.innerText = yourSymbol;
         helperTextDiv.innerText = "your symbol is:" + "\n" + yourSymbol;
         button1Div.style.display = "none";
-        button2Div.innerText = "@";
+        button2Div.innerText = <i class="bi bi-arrow-counterclockwise"></i>;
     }
 }
