@@ -13,12 +13,11 @@ function restartPage() {
     if (page = 1) {
         page++;
         console.log(page);
-        updatePage();
     } else {
-        page = 0;
+        page = 1;
         console.log(page);
-        updatePage();
     };
+    updatePage();
 };
 
 function nextPage() {
