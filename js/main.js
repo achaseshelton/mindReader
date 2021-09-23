@@ -73,7 +73,7 @@ function updatePage() {
         button2Div.innerText = "@";
     }
     else if (page == 5) {
-        headerDiv.innerText = string;
+        headerDiv.innerText = randomizeSymbol();
         helperTextDiv.innerText = "Find your new number. note the symbol beside the number";
         button1Div.innerText = "REVEAL";
         button2Div.innerText = "@";
