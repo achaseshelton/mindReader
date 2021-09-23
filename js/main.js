@@ -81,8 +81,8 @@ function updatePage() {
         button2Div.innerText = "@";
     }
     else if (page == 6) {
-        headerDiv.innerText = icon;
-        helperTextDiv.innerText = "your symbol is:" + "\n" + icon;
+        headerDiv.innerText = yourSymbol;
+        helperTextDiv.innerText = "your symbol is:" + "\n" + yourSymbol;
         button1Div.style.display = "none";
         button2Div.innerText = "@";
     }
