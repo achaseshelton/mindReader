@@ -31,11 +31,11 @@ function randomizeSymbol() {
     var string = "";
     for(var i = 1; i <= 99; i++) {
         if (i % 9 === 0) {
-            string = string + i + "-" + icon + "<br>"
+            string = string + i + "-" + icon + "\n"
         }
         else {
             var radom = symbols[Math.floor(Math.random()*symbols.length)];
-            string = string + i + "-" + radom + "<br>"
+            string = string + i + "-" + radom + "\n"
         };
     };
     return string;
@@ -80,7 +80,7 @@ function updatePage() {
     }
     else if (page == 6) {
         headerDiv.innerText = icon;
-        helperTextDiv.innerText = "your symbol is:" + "<br>" + icon;
+        helperTextDiv.innerText = "your symbol is:" + "\n" + icon;
         button1Div.style.display = "none";
         button2Div.innerText = "@";
     }
